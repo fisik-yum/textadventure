@@ -3,10 +3,7 @@ import random
 
 #simple stuff!
 def chance(chance_of_happens):#percentage
-    if random.randint(0,100)<=chance_of_happens:
-        return 1
-    if random.randint(0,100)>chance_of_happens:
-        return 0
+    return (random.randint(0,100)<=chance_of_happens)
 def addToInventory(inventory, item):#inventory must be a list
     inventory.append(item)
 def removeFromInventory(inventory, item):
