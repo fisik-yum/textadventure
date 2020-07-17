@@ -1,0 +1,8 @@
+<type-GameSave>
+data {
+    name:name,string;
+    character:character,string;
+    level:level,integer;
+    skills:list_of_skills,list;
+    inventory:inventory,list;
+}
