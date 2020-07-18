@@ -1,3 +1,4 @@
+FORMAT(field:value,datatype;)
 <type-GameSave>
 data {
     name:name,string;
